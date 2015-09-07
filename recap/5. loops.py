@@ -1,20 +1,32 @@
 ## Loops
 
-
-country = "The Netherlands"
-
-for character in country:
-	print character
+for variable in list/dict/string:
+	do something with variable
 
 
-cities = ["Rotterdam", "The Hague", "Amsterdam", "Utrecht"]
+# country = "The Netherlands"
 
-for item in cities:
-	print item
+# for character in country:
+# 	print character
 
 
-populations = { "Amsterdam": 80000, "Rotterdam": 500000, "The Hague": 100000}
+# cities = ["Rotterdam", "The Hague", "Amsterdam", "Utrecht"]
 
-for key in populations:
-	print key
-	print populations[key]
+# for item in cities:
+# 	print item
+
+
+# for index in range(0, len(cities)):
+# 	print index, cities[index]
+
+
+
+# for index, city in enumerate(cities):
+# 	print index, city
+
+
+# populations = { "Amsterdam": 80000, "Rotterdam": 500000, "The Hague": 100000}
+
+# for key in populations:
+# 	print key
+# 	print populations[key]
