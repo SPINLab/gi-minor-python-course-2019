@@ -1,7 +1,7 @@
 import shapefile
 # documentation: https://github.com/GeospatialPython/pyshp
 
-form shapely.geometry import Polygon
+from shapely.geometry import Polygon
 # documentation: http://toblerity.org/shapely/manual.html
 
 
@@ -36,7 +36,7 @@ form shapely.geometry import Polygon
 	# intersection between two geometries exists 
 
 	# Store each intersection in a list
-	intersections = []
+intersections = []
 	
 	# HINT: you'll need to convert each feature into a Shapely Polygon
 
