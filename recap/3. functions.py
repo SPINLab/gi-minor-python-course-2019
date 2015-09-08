@@ -3,23 +3,19 @@
 # ==========
 
 
-def function_name(parameter, another_param):
-	do something
-
-	return result
-
-
-
-
-
-# def add_string(pre, ante):
-# 	result = pre + ante
+# def function_name(parameter, another_param):
+# 	do something
 
 # 	return result
 
-# result = add_string("The", "Netherlands")
+def add_string(pre, ante):
+	result = pre + ante
 
-# print result
+	return result
+
+added = add_string("The", "Netherlands")
+
+print added
 
 
 
@@ -27,6 +23,6 @@ def function_name(parameter, another_param):
 ## Modules
 # ==========
 
-# from utils import capitalize
+from utils import capitalize
 
-# print capitalize(result)
+print capitalize(added)

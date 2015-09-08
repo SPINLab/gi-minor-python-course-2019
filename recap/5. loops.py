@@ -1,6 +1,6 @@
 ## Loops
 
-for variable in list/dict/string:
+for variable in list/dict/string/file:
 	do something with variable
 
 
@@ -20,7 +20,6 @@ for variable in list/dict/string:
 # 	print index, cities[index]
 
 
-
 # for index, city in enumerate(cities):
 # 	print index, city
 
@@ -30,3 +29,6 @@ for variable in list/dict/string:
 # for key in populations:
 # 	print key
 # 	print populations[key]
+
+
+# open file and iterate through contents
