@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-with open('source/library.html', 'r') as f:
+with open('sources/library.html', 'r') as f:
 	data = BeautifulSoup(f)
  
 print data
