@@ -2,16 +2,18 @@
 
  - install BeautifulSoup on your machine: open a command prompt in Windows (Start Menu -> Run cmd...) and execute
 
-    pip install --user BeautifulSoup4
+     pip install --user BeautifulSoup4
 
- - download the data and examples: go to https://github.com/ndkv/vu-python and click Download ZIP (lower richt corner)
+ - download the data and examples: go to https://github.com/ndkv/vu-python and click Download ZIP (lower right corner)
 
  - unzip the folder and open scrape.py in Spyder
+
+ - run scrape.py once to check whether everything is configured correctly
 
 
 ### Working with BeautifulSoup
 
-Documentation: http://www.crummy.com/software/BeautifulSoup/bs4/doc/#contents-and-children
+Documentation: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 
 #### Common BeautifulSoup operations operations
