@@ -13,7 +13,7 @@ print data
 #print data.find_all('div')
 #print data.find(id="book1")
 
-#def extract_books(data):
+#def extract_books():
 #    books_f = open('data/books.csv', 'w')
 #    books_f.write('title,author\n')
 #    
