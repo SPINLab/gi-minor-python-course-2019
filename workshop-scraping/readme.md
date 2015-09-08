@@ -12,7 +12,7 @@
 
  ### Getting started
 
-  - run and investigate scrape.example.py: uncomment the commented lines in scrape-example.py and try to figure out what is going on. Try to find the used functions in the BeautifulSoup documentation (see below).
+ - run and investigate scrape-example.py: uncomment the commented lines in scrape-example.py and try to figure out what is going on. Try to find the used functions in the BeautifulSoup documentation (see below).
 
  - once you grasp what is going on, try to create a Comma-Separated Values (CSV) file that contains each book's title and author.
 
