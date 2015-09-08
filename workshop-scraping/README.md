@@ -6,15 +6,15 @@
 
 - download the data and examples: go to https://github.com/ndkv/vu-python and click Download ZIP (lower right corner)
 
-- unzip the folder and open ```scrape-example.py``` in Spyder
+- unzip the folder somewhere and navigate to ```vu-python\workshop-scraping```
 
-- run scrape-example.py once to check whether everything is configured correctly
+- open and run ```scrape-example.py``` in Spyder to check whether everything is configured correctly
 
  ### Getting started
 
-- run and investigate ```scrape-example.py```: uncomment the commented lines and try to figure out what is going on. Study the used functions in the BeautifulSoup documentation (see below).
+- get to know BeautifulSoup: open ```scrape-example.py```, uncomment the commented statements and try to figure out what is going on. Study the used functions in the BeautifulSoup documentation (see below).
 
-- change something in the source file (i.e. library.html) e.g. the title of the page or a book, etc. and run ```scrape-example.py``` again. Are your changes reflected in the output?
+- change something in the source file ```library.html``` e.g. the title of the page or the title/author of the book with attribute ```id=1```, etc. and run ```scrape-example.py``` again. Are your changes reflected in the output?
 
 ### Warming up
 
