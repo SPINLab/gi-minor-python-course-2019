@@ -6,7 +6,7 @@
 
 - download the data and examples: go to https://github.com/ndkv/vu-python and click Download ZIP (lower right corner)
 
-- unzip the folder and open scrape-example.py in Spyder
+- unzip the folder and open ```scrape-example.py``` in Spyder
 
 - run scrape-example.py once to check whether everything is configured correctly
 
@@ -20,7 +20,7 @@
 
 - once you grasp what is going on, try to create a Comma-Separated Values (CSV) file that contains each book's title and author. HINT: find and fix the ```extract_books``` function.
 
-- open the file in Notepad/Excel to check whether everything worked fine.
+- open the file you created in Notepad/Excel to check whether everything worked fine.
 
 - add an extra book in your source file (library.html) and run the code again. Is it added to your file?
 

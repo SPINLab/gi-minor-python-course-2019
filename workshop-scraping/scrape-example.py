@@ -13,8 +13,11 @@ print data
 #print data.find_all('div')
 #print data.find(id="book1")
 
+# for child in data.find(id="onloan").children:
+# 	print child
+
 #def extract_books():
-#    books_f = open('data/books.csv', 'w')
+#    books_f = open('results/books.csv', 'w')
 #    books_f.write('title,author\n')
 #    
 #    for book in data.findAll(class_="book"):
@@ -25,5 +28,3 @@ print data
 #    
 #    books_f.close()
 
-# for child in data.find(id="onloan").children:
-# 	print child
