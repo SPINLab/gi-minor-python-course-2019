@@ -1,5 +1,7 @@
 ### Configuration
 
+- On your own Windows machine: install ```pip``` -> download and execute https://bootstrap.pypa.io/ez_setup.py (execute by double-clicking it)
+
 - install BeautifulSoup on your machine: open a command prompt in (Start Menu -> Run cmd...) and execute ```pip install --user BeautifulSoup4```
 
 - download the data and examples: go to https://github.com/ndkv/vu-python and click Download ZIP (lower right corner)
