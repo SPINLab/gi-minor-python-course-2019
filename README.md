@@ -18,23 +18,29 @@ This course is extremely hands-on: we don't have slides or lecture notes; we'll 
 
 ## methodology
 
-This course consists of a self-learning part and two hands-on workshops. Each workshop lasts a full day;  interactive lecture are planned for the morning while the afternoons are fille diwth supervised practical assignments. 
+This course consists of a self-learning part and two hands-on workshops. Each workshop lasts a full day;  interactive lectures are planned for the morning while the afternoons are filled with supervised practical assignments.
 
 The program is as follows: 
 
  - self-learning: Pytohn course on CodeAcademy
  - workshop I:
    - morning: interactive recap of CodeAcademy material, introduction to spatial analysis
-   - afternoon: practical assignment - spatial data 
+   - afternoon: practical assignment - reading, analysing and writing spatial datasets 
  - workshop II: 
-   - morning: recap of workshop I practical assignment, introduction to scraping
+   - morning: recap of workshop the spatial data practical assignment, introduction to scraping
    - practical assignment - scraping data from the web
 
 ## obtaining the lecture materials
+The folders in this repository contain the lecture materials. You will need these during the practical assignment, download them as follows:
 
 1. scroll to the top of this page
 2. click on the green button labelled `Clone or download`
 3. Click on `Download ZIP`
+4. Unzip the file you downloaded and load the `.py` scripts in your favourite editor.
+
+## getting help
+
+TODO
 
 ## the team
 
