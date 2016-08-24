@@ -26,13 +26,40 @@ This course consists of a self-learning part and two hands-on workshops. Each wo
 
 The program is as follows: 
 
- - self-learning: Pytohn course on CodeAcademy
+ - self-study: [Python course on Codeacademy](https://www.codecademy.com/learn/python)
  - workshop I:
-   - morning: interactive recap of CodeAcademy material, introduction to spatial analysis
+   - morning: interactive recap of Codeacademy material, introduction to spatial analysis
    - afternoon: practical assignment - reading, analysing and writing spatial datasets 
  - workshop II: 
    - morning: recap of workshop I, introduction to scraping
    - practical assignment - scraping data from the web
+
+
+
+## self-study: codeacademy.com
+
+To maximize the time available for hands-on lectures and exercises we kindly ask you to complete a number of Codeacademy Python lessons in advance.
+ 
+ [codeacademy.com](codeacademy.com) is an online learning platform that offers programming courses in a wide range of languages. You learn to program by typing and executing Python commands directly in your browser.
+ 
+ Registering for Codeacademy is easy:
+
+1. go to [https://www.codecademy.com/](https://www.codeacademy.com) and register
+2. log in and navigate to the [Python course](https://www.codecademy.com/learn/python)
+3. click `Start`
+
+Please complete the following exercises before coming to class on the 19th of September. 
+
+- Unit 1 - [Lesson: Python Syntax](https://www.codecademy.com/courses/introduction-to-python-6WeG3/0/1)
+- Unit 2 - Lesson: Strings & Console Output
+- Unit 3 - Lesson: Conditionals & Control Flow
+- Unit 4 - Lesson: Functions
+- Unit 5 - Lesson: Python Lists and Dictionaries
+- Unit 7 - Lesson: List and functions
+- Unit 8 - Lesson: Loops
+- (optional) Unit 10 - Lesson: Advanced Topics in Python
+
+Practice makes perfect: feel free to complete any of the other lessons and or exercises. 
 
 ## obtaining the lecture materials
 The folders in this repository contain the lecture materials. You will need these during the practical assignment. Download them as follows:
