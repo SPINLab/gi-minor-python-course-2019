@@ -5,17 +5,18 @@ In this chapter you'll learn how to read spatial data stored in a Shapefile, per
 ## Assignment
 
 You are asked to calculate the area, perimeter and geometry of the intersection between any geometry pair in `data/data.shp`.
+
    
-![]()
+![](https://github.com/ndkv/gi-minor-python-course/raw/master/2.%20geodata/data/data.png)
 
 ## Steps
 
 1. open `intersect.py`
 2. follow the instructions (comments) and implement the asked functionality:
-    1. to read a Shapefile that contains several overlapping features
-    2. intersect one of the features  with the other features
+    1. read `data/data.shp`
+    2. intersect one of the features with the other features
     3. calculate the area and perimeter of the intersection
-    4. store the intersection in a new Shapefile
+    4. store the geometry of the intersection in a new Shapefile
 3. run your code and compare your answers to the tutor's answers 
 
 ## Modules and documentation
