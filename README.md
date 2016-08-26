@@ -58,6 +58,7 @@ Please complete the following exercises before coming to class on the 19th of Se
 - Unit 7 - Lesson: List and functions
 - Unit 8 - Lesson: Loops
 - (optional) Unit 10 - Lesson: Advanced Topics in Python
+- Unit 12 - Lesson: File Input and Output
 
 Practice makes perfect: feel free to complete any of the other lessons and or exercises. 
 
