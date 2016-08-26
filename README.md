@@ -69,6 +69,20 @@ The folders in this repository contain the lecture materials. You will need thes
 3. click on `Download ZIP`
 4. Unzip the file you downloaded and load the `.py` scripts in your favourite editor.
 
+## installing Python 
+
+TODO!
+
+- install `Python 2.7` -> Download Python 2.7 from https://www.python.org/downloads/.
+
+- install the `BeautifulSoup` module: open a command prompt  (Start Menu -> Run cmd...) and execute: `pip install --user BeautifulSoup4`
+
+- install the `pyshp` module: execute `pip install --user pyshp` in the command prompt
+
+- install the `Shapely` module: download ... to ... and execute `pip install --user C:\Users\<username>\Downloads\<downloaded_file>.whl`
+
+- (only in case of trouble) install `pip` -> download and execute [ez_setup.py](https://bootstrap.pypa.io/ez_setup.py ) (execute by double-clicking it) and execute the above steps
+
 ## getting help
 
 TODO
