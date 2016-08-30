@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 with open('sources/library.html', 'r') as f:
-	data = BeautifulSoup(f)
+    data = BeautifulSoup(f)
  
 print data
 
@@ -21,10 +21,9 @@ def extract_books():
    books_f.write('title,author\n')
    
    for book in data.findAll(class_="book"):
-   	title = book.find(class_="title").text
-   	author = book.find(class_="author").text
-   
-   	books_f.write("%s,%s\n" % (title, author))
+       title = book.find(class_="title").text
+       author = book.find(class_="author").text
+       books_f.write("%s,%s\n" % (title, author))
    
    books_f.close()
 
