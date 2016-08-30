@@ -32,7 +32,7 @@ The program is as follows:
    - afternoon: practical assignment - reading, analysing and writing spatial datasets 
  - workshop II: 
    - morning: recap of workshop I, introduction to scraping
-   - practical assignment - scraping data from the web
+   - afternoon: practical assignment - scraping data from the web
 
 
 
@@ -60,10 +60,10 @@ Please complete the following exercises before coming to class on the 19th of Se
 - (optional) Unit 10 - Lesson: Advanced Topics in Python
 - Unit 12 - Lesson: File Input and Output
 
-Practice makes perfect: feel free to complete any of the other lessons and or exercises. 
+Practice makes perfect: feel free to complete any of the other lessons and or exercises after you've gone through thist list.
 
 ## obtaining the lecture materials
-The folders in this repository contain the lecture materials. You will need these during the practical assignment. Download them as follows:
+The folders in this repository contain the lecture materials, code examples and exercises for the practical sessions. Download them as follows:
 
 1. scroll to the top of this page
 2. click on the green button labelled `Clone or download`
@@ -72,9 +72,9 @@ The folders in this repository contain the lecture materials. You will need thes
 
 ## installing Python 
 
-TODO!
+You'll need to install Python and a number of external modules on your machine to run the example scripts and perform. You can do so as follows: 
 
-- install `Python 2.7` -> Download Python 2.7 from https://www.python.org/downloads/.
+- download and install `Python 2.7` -> [Download Python 2.7](https://www.python.org/downloads/).
 
 - install the `BeautifulSoup` module: open a command prompt  (Start Menu -> Run cmd...) and execute: `pip install --user BeautifulSoup4`
 
@@ -86,7 +86,20 @@ TODO!
 
 ## getting help
 
-TODO
+Pleae use the [issue tracker](https://github.com/ndkv/gi-minor-python-course/issues) to post questions about the lecture notes, examples, exercises and Python in general or in case you're having difficulties installing Python. 
+
+1. scroll to the top of this page and click on `Issues`
+2. click on the green button labelled `New issue`
+3. enter a descriptive `Title` and a describe your issue/question in the `Comment` textbox.
+ 
+ *Note*: you need a GitHub account to post an issue.
+ 
+ We encourage you to use the issue tracker as it 
+ - saves us a lot of time since we don't have to answer each question separately (through mail)
+ - saves you a lot of time in case someone else posted your question
+ - is a nice collaborative learning mechanism: seeing other people's questions is a sure way to learn something new and unexpected
+ 
+ Not conviced? Feel free to send us an email. 
 
 ## the team
 
