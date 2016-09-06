@@ -9,7 +9,11 @@ You are asked to calculate the area, perimeter and geometry of the intersection 
    
 ![](https://github.com/ndkv/gi-minor-python-course/raw/master/2.%20geodata/data/data.png)
 
-## Steps
+Use the provided `intersect.py` script as a starting point (see below).
+
+You'll successfully pass this assignment when your script's output matches that of the tutor.
+
+## Suggested approach
 
 1. open `intersect.py`
 2. follow the instructions (comments) and implement the asked functionality:
@@ -19,7 +23,7 @@ You are asked to calculate the area, perimeter and geometry of the intersection 
     4. store the geometry of the intersection in a new Shapefile
 3. run your code and compare your answers to the tutor's answers 
 
-Pleaes refer to the documentation of each module to figure out which functions to use (see below).
+Please refer to the documentation of each module to figure out which functions to use (see below).
 
 ## Modules and documentation
 
@@ -30,9 +34,13 @@ By itself Python is not capable of dealing with Shapefiles and perfoming geospat
 |pyshp|read/write Shapefiles|https://github.com/GeospatialPython/pyshp|
 |Shapely|perform spatial analysis|http://toblerity.org/shapely/manual.html|
 
-See `intersect.py` for an example how to invoke modules in a script.
+`pyshp` contains fuctionalities to read Shapefiles, extract features and their geometries and attributes.
+
+`Shapely` is capable of creating spatial objects such as `Points`, `Lines` and `Polygons` and calculating their areas, perimeters, etc. 
+  
+See `intersect.py` for hints and usage examples.
 
 ## Getting help
 
-- Use the [issue tracker](https://github.com/ndkv/gi-minor-python-course/issues). See how and why [here](https://github.com/ndkv/gi-minor-python-course#getting-help).
+- Please use the [issue tracker](https://github.com/ndkv/gi-minor-python-course/issues). [It's good for us, it's good for you.](https://github.com/ndkv/gi-minor-python-course#getting-help).
 - Ask an assistant for help.
