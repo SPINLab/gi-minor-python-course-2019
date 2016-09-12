@@ -6,9 +6,9 @@ welcome to the Vrije Universiteit Python course. In this course we'll take a sma
 
 From previous iterations we've distilled that learning the basics isn't the challenge (anymore) due to the abundance of MOOCs and interactive online tutorials. **Rather, the question is: how do I craft useful scripts that solve real-world problems?** 
 
-Hence, we'll show you how to apply your knowledge to tackle problems you run into in your typical day-to-day use of Python, and give you tips-and-tricks on how to find help and expand Python's capabilities with external modules.
+Hence, we'll show you how to **apply your knowledge** to the challenges you'd like to **address day-to-day activities**. Along the way, we'll show you how to solve common Python-related problems, give you tips-and-tricks about finding help and expanding Python's capabilities with external modules.
    
-This course is extremely hands-on: we don't have slides or lecture notes; we'll only show and execute Python code. We think we can get away with this approach only because you'll have done the bulk of the learning by the time you join us on Monday morning. 
+This course is extremely hands-on: **we don't have slides or extensive lecture notes; we'll only show and execute Python code**. We think we can get away with this approach only because you'll have done the bulk of the learning by the time you join us on Monday morning. 
 
 Curious? Read on!
 
@@ -34,15 +34,15 @@ The program is as follows:
    - morning: recap of workshop I, introduction to scraping
    - afternoon: practical assignment - scraping data from the web
 
-
+Each interactive session + practical assignment pair is accompanied by a short manual and some Python scripts, see the [obtaining the lecture materials](https://github.com/ndkv/gi-minor-python-course#obtaining-the-lecture-materials) section below for more information. 
 
 ## self-study: codeacademy.com
 
-To maximize the time available for hands-on lectures and exercises we kindly ask you to complete a number of Codeacademy Python lessons in advance.
+To maximize the time available for the hands-on lectures and exercises we kindly ask you to complete a number of Codeacademy Python lessons in advance.
  
  [codeacademy.com](codeacademy.com) is an online learning platform that offers programming courses in a wide range of languages. You learn to program by typing and executing Python commands directly in your browser.
  
- Registering for Codeacademy is easy:
+ Register for Codeacademy as follows:
 
 1. go to [https://www.codecademy.com/](https://www.codeacademy.com) and register
 2. log in and navigate to the [Python course](https://www.codecademy.com/learn/python)
@@ -62,13 +62,22 @@ Please complete the following exercises before coming to class on the 19th of Se
 
 Practice makes perfect: feel free to complete any of the other lessons and or exercises after you've gone through thist list.
 
-## obtaining the lecture materials
-The folders in this repository contain the lecture materials, code examples and exercises for the practical sessions. Download them as follows:
+## lecture materials
+
+The lecture notes are split in three chapters. Each chapter contains a short manual and one or more Python scripts. 
+
+- [Chapter 1 - recap](https://github.com/ndkv/gi-minor-python-course/tree/master/1.%20recap) - recap of the Codeacademy material you studied by yourself.
+- [Chapter 2 - geodata](https://github.com/ndkv/gi-minor-python-course/tree/master/2.%20geodata) - describes the geodata assignment + hints/tips/tricks about processing geodata.
+- [Chapter 3 - scraping](https://github.com/ndkv/gi-minor-python-course/tree/master/3.%20scraping) - desbribes the scraping assignment + hints/tips/tricks about scraping data.
+
+
+You can download the accompanying Python scripts as follows:
 
 1. scroll to the top of this page
 2. click on the green button labelled `Clone or download`
 3. click on `Download ZIP`
-4. Unzip the file you downloaded and load the `.py` scripts in your favourite editor.
+4. Unzip the file you downloaded and load the `.py` scripts contained in one of the folders in your favourite editor.
+
 
 ## installing Python (Windows) 
 
