@@ -70,11 +70,9 @@ The folders in this repository contain the lecture materials, code examples and 
 3. click on `Download ZIP`
 4. Unzip the file you downloaded and load the `.py` scripts in your favourite editor.
 
-## installing Python 
+## installing Python (Windows) 
 
 You'll need to install Python and a number of external modules on your machine to run the example scripts and perform. You can do so as follows: 
-
-### Windows
 
 - download and install `Python 2.7` -> [Download Python 2.7](https://www.python.org/downloads/).
 
@@ -82,13 +80,29 @@ You'll need to install Python and a number of external modules on your machine t
 
 - install the `pyshp` module: execute `pip install --user pyshp` in the command prompt
 
-- install the `Shapely` module: download ... to ... and execute `pip install --user C:\Users\<username>\Downloads\<downloaded_file>.whl`
+- install the `Shapely` module: [download it](http://www.lfd.uci.edu/~gohlke/pythonlibs/zhd9emvy/Shapely-1.5.16-cp27-cp27m-win_amd64.whl) to your `Downloads` folder and execute `pip install --user C:\Users\<username>\Downloads\<downloaded_file>.whl`
 
 - (only in case of trouble) install `pip` -> download and execute [ez_setup.py](https://bootstrap.pypa.io/ez_setup.py ) (execute by double-clicking it) and execute the above steps
 
-### OS X
+Test if everything works: 
 
-TODO
+- start the Python editor `IDLE`: Look for `Python` -> `IDLE` in the Start Menu or simply search for `IDLE` 
+- create a new file: `File` -> `New file` 
+- copy/paste the following code into the newly opened editor
+
+```python
+import bs4 as BeautifulSoup
+from shapefile import Reader
+from shapely.geometry import Polygon
+
+print 'Everything works!'
+
+```
+- save the file: `File` -> `Save` (Beware: do not call it `python.py`)
+- run the code: `Run` -> `Run module`
+- do you see `Everything works!` in the ouput screen? Great, you're all set!
+- do you see something else? Too bad, something's wrong. Please copy/paste the output in the issue tracker (see below for instructions) and we'll try to assist you.
+
 
 ## getting help
 
@@ -101,9 +115,11 @@ Please use the [issue tracker](https://github.com/ndkv/gi-minor-python-course/is
  *Note*: you need a GitHub account to post an issue.
  
  We encourage you to use the issue tracker as it 
+ - is a nice collaborative learning mechanism: seeing other people's questions is a sure way to learn something new and unexpected
  - saves us a lot of time since we don't have to answer each question separately (through mail)
  - saves you a lot of time in case someone else has posted your question already
- - is a nice collaborative learning mechanism: seeing other people's questions is a sure way to learn something new and unexpected
+ - the act of verbalizing your problem often times leads you to a solution 
+ 
  
  Not conviced? Feel free to send us an email. 
 
