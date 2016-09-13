@@ -81,15 +81,27 @@ You can download the accompanying Python scripts as follows:
 
 ## installing Python (Windows) 
 
-You'll need to install Python and a number of external modules on your machine to run the example scripts and perform. You can do so as follows: 
+You'll need to install Python and a number of external modules on your machine to run the example scripts and perform the exercises. You can do so as follows: 
 
-- download and install `Python 2.7` -> [Download Python 2.7](https://www.python.org/downloads/).
+- download and install `Python 2.7` -> [Download the Python 2.7 32-bit installer](https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi) and double click it. Accept the default choices, **but make sure `Add python.exe to the system path` is checked**.
 
-- install the `BeautifulSoup` module: open a command prompt  (Start Menu -> Run cmd...) and execute: `pip install --user BeautifulSoup4`
+- install the `BeautifulSoup` module: open a command prompt  (`Start Menu` -> `Run cmd...`) and enter the following command: 
 
-- install the `pyshp` module: execute `pip install --user pyshp` in the command prompt
+    `pip install --user BeautifulSoup4`
+    
+    press `Enter` to execute it.
 
-- install the `Shapely` module: [download it](http://www.lfd.uci.edu/~gohlke/pythonlibs/zhd9emvy/Shapely-1.5.16-cp27-cp27m-win_amd64.whl) to your `Downloads` folder and execute `pip install --user C:\Users\<username>\Downloads\<downloaded_file>.whl`
+- install the `pyshp` module: enter 
+
+    `pip install --user pyshp` 
+    
+    in the command prompt and press `Enter` to execute it.
+
+- install the `Shapely` module: go to [http://www.lfd.uci.edu/](http://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely) and download the first file from the list to your `Downloads` folder. Execute 
+
+    `pip install --user C:\Users\<username>\Downloads\<downloaded_file>.whl`. 
+    
+    Replace `<username>` with your Windows user name and `downloaded_file` with the name of the file you just downloaded.
 
 - (only in case of trouble) install `pip` -> download and execute [ez_setup.py](https://bootstrap.pypa.io/ez_setup.py ) (execute by double-clicking it) and execute the above steps
 
@@ -107,11 +119,10 @@ from shapely.geometry import Polygon
 print 'Everything works!'
 
 ```
-- save the file: `File` -> `Save` (Beware: do not call it `python.py`)
+- save the file: `File` -> `Save`
 - run the code: `Run` -> `Run module`
 - do you see `Everything works!` in the ouput screen? Great, you're all set!
 - do you see something else? Too bad, something's wrong. Please copy/paste the output in the issue tracker (see below for instructions) and we'll try to assist you.
-
 
 ## getting help
 
