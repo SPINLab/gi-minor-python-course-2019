@@ -136,13 +136,12 @@ Please use the [issue tracker](https://github.com/ndkv/gi-minor-python-course/is
  
 We encourage you to use the issue tracker as it 
 
+- the act of verbalizing your problem often times leads you to a solution
 - is a nice collaborative learning mechanism: seeing other people's questions is a sure way to learn something new and unexpected
-- saves us a lot of time since we don't have to answer each question separately (through mail)
 - saves you a lot of time in case someone else has posted your question already
-- the act of verbalizing your problem often times leads you to a solution 
+- saves us a lot of time since we don't have to answer each question separately (through mail)
  
- 
- Not conviced? Feel free to send us an email. 
+ Not convinced? Feel free to send us an email. 
 
 ## the team
 
