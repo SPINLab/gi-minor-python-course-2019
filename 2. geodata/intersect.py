@@ -22,7 +22,7 @@ from shapely.geometry import Polygon
 
 ## Calculate areas and perimeter
     # calculate the main feature's area and perimeter using Shapely
-    # HINT: create a Shapely Polygon and use its area() and perimeter() functions
+    # HINT: create a Shapely Polygon and call its area and length parameters (i.e. use .area)
     # HINT: what input does the Shapely's Polygon object require?
 
     # print the feature's id
