@@ -80,24 +80,27 @@ You can download the accompanying Python scripts as follows:
 
 ## Installing Python (Windows)
 
-You'll need to install Python and a number of external modules on your machine to run the example scripts and perform the exercises. To make it easier we will use a python distribution that already comes with a large number of modules that are useful for scientific computing, called Anaconda. It also comes with a module manager called Conda, which we will use to install a few modules. You can install Anaconda and the needed modules as follows: 
+You'll need to install Python and a number of external modules on your machine to run the example scripts and perform the exercises. To make it easier we will use a python distribution that already comes with a large number of modules that are useful for scientific computing, called Anaconda. We will use the 2.7 version, since it has better library support and it is the version used by GIS packages like ArcGIS and QGIS. Anaconda also comes with a module manager called Conda, which we will use to install a few modules.
+
+You can install Anaconda and the needed modules as follows: 
 
 - Download and install Anaconda (Python 2.7 version) -> [Download Anaconda](https://www.anaconda.com/download/) and double click it. You can accept the default choices. 
 
-- Install the `fiona` module: open a Anaconda propmt (`Start Menu` -> `Anaconda` -> `Anaconda Prompt`) and enter the following command:
+- Install the `fiona` module: open a Anaconda prompt (`Start Menu` -> `Anaconda` -> `Anaconda Prompt`) and enter the following command:
 
     `conda install -c conda-forge fiona`
 
     press `Enter` to execute it.
 
-- Install the `tweepy` module: open a Anaconda propmt (`Start Menu` -> `Anaconda` -> `Anaconda Prompt`) and enter the following command:
+- Install the `tweepy` module: open a Anaconda prompt (`Start Menu` -> `Anaconda` -> `Anaconda Prompt`) and enter the following command:
 
     `conda install -c conda-forge tweepy`
 
     press `Enter` to execute it.
 
-Test if everything works: 
+- If you ever want to install other modules just Google `conda *module name*` and look for the result (with `Anaconda Cloud` in the title) with the latest version available for your platform. Copy the text under `To install this package with conda run one of the following:` and enter this command in the Anaconda prompt.
 
+Test if everything works: 
 - start the Python editor `Spyder` (`Start Menu` -> `Anaconda` -> `Spyder`)
 - copy/paste the following code into the newly opened editor
 
@@ -112,7 +115,7 @@ print 'Everything works!'
 - do you see `Everything works!` in the ouput screen? Great, you're all set!
 - do you see something else? Too bad, something's wrong. Please copy/paste the output in the issue tracker (see below for instructions) and we'll try to assist you.
 
-## getting help
+## Getting help
 
 Please use the [issue tracker](https://github.com/clucas111/gi-minor-python-course/issues) to post questions about the lecture notes, examples, exercises and Python in general or in case you're having difficulties installing Python. 
 
@@ -131,7 +134,7 @@ We encourage you to use the issue tracker as it
  
  Not convinced? Feel free to send us an email. 
 
-## the team
+## The team
 
 - Eduardo Dias
 - Simeon Nedkov

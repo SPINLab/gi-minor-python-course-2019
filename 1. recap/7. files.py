@@ -40,4 +40,16 @@ output_file = open('data/processed.txt', 'w')
 output_file.write('Hello, world!')
 output_file.close()
 
-## NOTE planning to work with data? Use a mature and robust data/reading writin module.
+
+
+
+# NOTE Reading and writing data can also be done as follows:
+# Reading:
+with open('data/data.csv', 'r') as f:
+    print f.readline()
+
+# Writing:
+with open('data/processed.txt', 'w') as f:
+    f.write('Hello, world!')
+# This is generally considered the preferred way,
+# since it guarantees the file get closed.

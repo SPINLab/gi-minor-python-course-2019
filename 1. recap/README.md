@@ -4,7 +4,7 @@ This chapter recaps most of the materials you learned in the Codeacademy lessons
 
 We'll go line-by-line through each script during the interactive sessions in the morning. The tutor will execute and shortly discuss each statement, show you what can go wrong and how to fix it, and where to look for additional information about Python functions and modules.
 
-Ghe goal of the interactive sessions is to
+The goal of the interactive sessions is to
  - interactively recap the Codeacademy lessons
  - give you the opportunity to ask questions about the topics and/or problems you encountered in the Codeacademy lessons.
  
