@@ -1,6 +1,8 @@
 # Chapter 2. Amsterdam API
 
+Data gets made available in different ways. Sometimes, for example, you simply go to a website and click a download link, sometimes you need to scrape it off a website, and sometimes you can use an API (application programming interface). An API is a set of definitions and methods for different computer software to communicate with each other. It is a general term, but in the context of data acquisition an API makes it easier to retrieve data in an automatic way. To make use of this automation we need a way to tell the computer how to use the API. This can be done using various tools and/or programming languages. We will use python to this end, since it is a very accessible and flexible programming langauge, with a lot of modules available able to provide a broad range of extra functionality. Python is also the programming language used by GIS packages such as ArcGIS (arcpy) and QGIS.
 
+As a data source to practice with we are going to use an API of the municipality of Amsterdam. They publish different kinds of data through API's, which are listed at https://api.data.amsterdam.nl/api/. We will use the panorama photo API to retrieve 360 panorama photos taken from a car driving through Amsterdam. The techniques used in this exercise can also be used to download data from the other API's from Amsterdam, and many many more API's from other sources.
 
 ## Assignment
 
@@ -43,13 +45,19 @@ print(r.content)
 
 1. Go to the [Amsterdam API website](https://api.data.amsterdam.nl/api/), look for the panorama photos API and click on the `Online API` link. Explore the API (what directories are there? What data do they return? Which options do they have?)
 
+2. Think of which url we can use to retrieve a single photo.
+
 2. Open `photo_single.py`. Create a python script which retrieves a single photo from the API and saves it to the hard disk. The `.py` file contains pointers and hints to help you.
 
 ## Using parameters
 
-1. Open `photo_location.py`. Create a python script which retrieves a photo based on a location (for example in front of your house or the university) and save the photo and a shapefile with the location to the hard disk. The `.py` file contains pointers and hints to help you.
+1. Which url could we use to request a photo based on location? Which parameters would we have to set?
 
-2. Load the shapefile into ArcMap and make the point clickable, linking to the photo, by creating a hyperlink based on a field (path to the photo on the hard disk) in the shapefile. HINT: The ability to create a hyperlink based on a field is given in the `Display` tab of the `Layer Properties`. To be able to click on the point enable hyperlink mode by clicking on the lightning bolt icon on the toolbar:
+2. Choose a location (for example in front of your house or the university) and get the coordinates in the coordinate system the API works with.
+
+3. Open `photo_location.py`. Create a python script which retrieves a photo based on a location and save the photo and a shapefile with the location to the hard disk. The `.py` file contains pointers and hints to help you.
+
+4. Load the shapefile into ArcMap and make the point clickable, linking to the photo, by creating a hyperlink based on a field (path to the photo on the hard disk) in the shapefile. HINT: The ability to create a hyperlink based on a field is given in the `Display` tab of the `Layer Properties`. To be able to click on the point enable hyperlink mode by clicking on the lightning bolt icon on the toolbar:
 
     ![alt text](hyperlink.png "Hyperlink Mode")
 
@@ -63,6 +71,6 @@ print(r.content)
 
 Since the API only allows to get the single closest photo to a location it is a bit of a challenge to download a series of photos in a street.
 
-1. Think of a way to achieve this task. It can be done in multiple ways.
+1. Think of a way to achieve this task (it can be done in multiple ways).
 
 2. Make a python script. And visualize in ArcMap the same way as before.
