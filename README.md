@@ -27,13 +27,13 @@ This course consists of a self-learning part and two hands-on workshops. Each wo
 The program is as follows:
  - self-study: [Python course on Codeacademy](https://www.codecademy.com/learn/python)
  - workshop I:
-   - morning: interactive recap of Codeacademy material, introduction to spatial analysis
-   - afternoon: practical assignment - reading, analysing and writing spatial datasets 
+   - morning: interactive recap of Codeacademy material, introduction to API's and requests
+   - afternoon: practical assignment - using the Amsterdam API, with the requests module
  - workshop II: 
-   - morning: recap of workshop I, introduction to scraping
-   - afternoon: practical assignment - scraping data from the web
+   - morning: recap of workshop I, introduction to Twitter API and tweepy
+   - afternoon: practical assignment - using the Twitter API, with the tweepy module
 
-Each interactive session + practical assignment pair is accompanied by a short manual and some Python scripts, see the [lecture materials](https://github.com/ndkv/gi-minor-python-course#lecture-materials) section below for more information. 
+Each interactive session + practical assignment pair is accompanied by a short manual and some Python scripts, see the [lecture materials](https://github.com/clucas111/gi-minor-python-course#lecture-materials) section below for more information. 
 
 ## Self-study: codeacademy.com
 
@@ -65,10 +65,9 @@ Practice makes perfect: feel free to complete any of the other lessons and or ex
 
 The lecture notes are split in three chapters. Each chapter contains a short manual and one or more Python scripts. 
 
-- [Chapter 1 - recap](https://github.com/ndkv/gi-minor-python-course/tree/master/1.%20recap) - recap of the Codeacademy material you studied by yourself.
-- [Chapter 2 - Amsterdam API](https://github.com/ndkv/gi-minor-python-course/tree/master/2.%20geodata) - describes the Amsterdam API assignment + hints/tips/tricks about using an API.
-- [Chapter 3 - Twitter API](https://github.com/ndkv/gi-minor-python-course/tree/master/3.%20scraping) - describes the Twitter API assignment + hints/tips/tricks about using the Twitter API.
-
+- [Chapter 1 - recap](https://github.com/clucas111/gi-minor-python-course/tree/master/1_recap) - recap of the Codeacademy material you studied by yourself.
+- [Chapter 2 - Amsterdam API](https://github.com/clucas111/gi-minor-python-course/tree/master/2_AmsterdamAPI) - describes the Amsterdam API assignment + hints/tips/tricks about using an API.
+- [Chapter 3 - Twitter API](https://github.com/clucas111/gi-minor-python-course/tree/master/3_TwitterAPI) - describes the Twitter API assignment + hints/tips/tricks about using the Twitter API.
 
 You can download the accompanying Python scripts as follows:
 
@@ -76,7 +75,6 @@ You can download the accompanying Python scripts as follows:
 2. click on the green button labelled `Clone or download`
 3. click on `Download ZIP`
 4. Unzip the file you downloaded and load the `.py` scripts contained in one of the folders in your favourite editor.
-
 
 ## Installing Python (Windows)
 
