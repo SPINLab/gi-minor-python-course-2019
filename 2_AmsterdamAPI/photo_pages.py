@@ -48,4 +48,4 @@ with fiona.open(shp_filepath, 'w', 'ESRI Shapefile',
         next_url = response_dict['_links']['next']['href']
         ## Request the next page
         response = requests.get(next_url)
-        response_dict = r.json()
+        response_dict = response.json()

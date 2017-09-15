@@ -2,24 +2,30 @@
 
 country = ";The Netherlands, NL"
 
-# print "First letter is", country[1]
-# print "Length of string is", len(country)
+#print "First letter is", country[1]
+#print "Length of string is", len(country)
 
 country = country + ", Europe"
-# print "Welcome in %s, %s, %s you happy person" % (country, "bla bla", str(1))
+print country
 
-# print "Welcome in " + country + " bla bla " + str(1) + " happy person"
-
-# print country
+dir(country)
 
 bogus = ";"
-country = country.replace(bogus,"")
+country = country.replace(bogus, "")
 # print country
 
-# print country
+
 places = country.split(", ")
 
 # print places[0]
 
 for place in country.split(", "):
-	print place.upper()
+    print place.upper()
+
+
+nl = "The Netherlands"
+be = "Belgium"
+EU_countries = 28
+
+print "The EU has " + str(EU_countries) + " member countries, including " + nl + " and " + be
+print "The EU has {} member countries, including {} and {}".format(EU_countries, nl, be)

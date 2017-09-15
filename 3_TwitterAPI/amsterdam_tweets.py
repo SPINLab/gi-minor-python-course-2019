@@ -42,7 +42,7 @@ query = "place:{}".format(amsterdam_id)
 # that need to be passed into said method.
 # HINT: Use the dir or help function in python or the tweepy documentation online to find
 # out which method you need and which argument you have to use to pass in the query.
-tweet_cursor = tweepy.Cursor(api.search, q=query).items(1000)
+tweet_cursor = tweepy.Cursor(api.search, q="place:99cdab25eddd6bce").items(100)
 
 # To save all tweets with coordinates we loop through all and add the tweets with
 # coordinates to a list.

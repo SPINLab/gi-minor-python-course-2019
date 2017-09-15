@@ -32,7 +32,7 @@ image = requests.get(url)
     # HINT: to write bytes to a file instead of text, use 'wb' instead of just 'w'
     # when opening the file.
     # HINT: use dir() or help() to list the methods and attributes of the
-    # image response. which method of attribute could give the image in a
+    # image response. which method or attribute could give the image in a
     # format we can write to a file?
 filename = 'data\\' + response_dict['results'][0]['filename']
 with open(filename, 'wb') as f:

@@ -35,9 +35,11 @@ data_file.close()
 
 
 # writing data
+# file gets created if it doesn't exist
 output_file = open('data/processed.txt', 'w')
 
 output_file.write('Hello, world!')
+
 output_file.close()
 
 

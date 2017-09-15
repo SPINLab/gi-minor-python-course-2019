@@ -16,8 +16,8 @@ cwd = "C:\\Projects\\SPINLab\\GI-minor\\gi-minor-python-course\\2. amsterdam api
     # for accpeted parameters
     # HINT: look in the `requests` module documentation how to add parameters
     # to a request
-params = {'lat': '52.362951', 'lon': '4.928977'}
-response = requests.get('https://api.data.amsterdam.nl/panorama/opnamelocatie/', params=params)
+loc = {'lat': '52.362951', 'lon': '4.928977'}
+response = requests.get('https://api.data.amsterdam.nl/panorama/opnamelocatie/', params=loc)
 response_dict = response.json()
 
 url = response_dict['image_sets']['equirectangular']['full']
