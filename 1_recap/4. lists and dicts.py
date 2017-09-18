@@ -13,14 +13,11 @@ cities = ["Rotterdam", "The Hague", "Amsterdam", "Utrecht"]
 #chaos = ["Rotterdam", cities, [1, 2, 3, 4, [1, 2, 33]], "Amersfoort", 5]
 #print chaos[2]
 
-print chaos
-for value in chaos
-    print value
+#print chaos
+#for value in chaos
+#    print value
 
-# print dir(chaos)
-
-
-# print chaos
+#print dir(chaos)
 
 
 
@@ -57,11 +54,3 @@ print populations.values()
 print 300000 in populations.values()
 
 # NOTE: dictionaries are not ordered.
-
-
-
- # polygon = [[x,y], [x,y], [x,y]]
-
-
-
-for populatie
