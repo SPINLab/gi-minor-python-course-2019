@@ -3,21 +3,21 @@
 cities = ["Rotterdam", "The Hague", "Amsterdam", "Utrecht"]
 
 
-#print cities
-#print cities[0]
-#print cities.pop()
-#print cities
-#cities.pop(0)
-#print cities
+print cities
+print cities[0]
+print cities.pop()
+print cities
+cities.pop(0)
+print cities
 
-#chaos = ["Rotterdam", cities, [1, 2, 3, 4, [1, 2, 33]], "Amersfoort", 5]
-#print chaos[2]
+chaos = ["Rotterdam", cities, [1, 2, 3, 4, [1, 2, 33]], "Amersfoort", 5]
+print chaos[2]
 
-#print chaos
-#for value in chaos
-#    print value
+print chaos
+for value in chaos
+    print value
 
-#print dir(chaos)
+print dir(chaos)
 
 
 
@@ -29,11 +29,11 @@ populations = {
 	"The Hague": 100000
 }
 
-# print populations
+print populations
 
-# print populations["Amsterdam"]
+print populations["Amsterdam"]
 
-# print populations
+
 
 populations.update({
   	"Utrecht": 200000,
@@ -52,5 +52,7 @@ print dir(populations)
 
 print populations.values()
 print 300000 in populations.values()
+
+print populations["Rotterdam"][0]
 
 # NOTE: dictionaries are not ordered.

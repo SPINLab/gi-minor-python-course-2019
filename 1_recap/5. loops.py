@@ -1,34 +1,34 @@
 ## Loops
 
 for variable in list/dict/string/file:
-	do something with variable
+    do something with variable
 
 
-# country = "The Netherlands"
+country = "The Netherlands"
 
-# for character in country:
-# 	print character
-
-
-# cities = ["Rotterdam", "The Hague", "Amsterdam", "Utrecht"]
-
-# for item in cities:
-# 	print item
+for character in country:
+    print character
 
 
-# for index in range(0, len(cities)):
-# 	print index, cities[index]
+cities = ["Rotterdam", "The Hague", "Amsterdam", "Utrecht"]
+
+for item in cities:
+    print item
 
 
-# for index, city in enumerate(cities):
-# 	print index, city
+for index in range(0, len(cities)):
+    print index, cities[index]
 
 
-# populations = { "Amsterdam": 80000, "Rotterdam": 500000, "The Hague": 100000}
+for index, city in enumerate(cities):
+    print index, city
 
-# for key in populations:
-# 	print key
-# 	print populations[key]
+
+populations = { "Amsterdam": 80000, "Rotterdam": 500000, "The Hague": 100000}
+
+for key in populations:
+    print key
+    print populations[key]
 
 
 # open file and iterate through contents

@@ -12,7 +12,7 @@ print type(data_file.readline())
 
 
 # read all lines
-# print data.readlines()
+print data.readlines()
 
 
 

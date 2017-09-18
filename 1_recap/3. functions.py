@@ -16,13 +16,3 @@ def add_string(pre, ante):
 added = add_string("The", "Netherlands")
 
 print added
-
-
-
-# ==========
-## Modules
-# ==========
-
-from utils import capitalize
-
-print capitalize(added)
