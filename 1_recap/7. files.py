@@ -5,7 +5,7 @@ data_file = open('data/data.csv', 'r')
 
 
 # reading data
-print data_file.readline()
+print data_file.readline() 
 print type(data_file.readline())
 
 
