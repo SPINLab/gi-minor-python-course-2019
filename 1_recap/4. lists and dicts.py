@@ -11,10 +11,10 @@ cities.pop(0)
 print cities
 
 chaos = ["Rotterdam", cities, [1, 2, 3, 4, [1, 2, 33]], "Amersfoort", 5]
-print chaos[2]
+print chaos[2][4][0]
 
 print chaos
-for value in chaos
+for value in chaos:
     print value
 
 print dir(chaos)
@@ -23,11 +23,7 @@ print dir(chaos)
 
 ## Dicts
 
-populations = {
-	"Amsterdam": 80000,
-	"Rotterdam": [12, 23],
-	"The Hague": 100000
-}
+populations = {"Amsterdam": None, "Rotterdam": [12, 23], "The Hague": 100000}
 
 print populations
 

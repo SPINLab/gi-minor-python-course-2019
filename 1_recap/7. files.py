@@ -12,21 +12,25 @@ print type(data_file.readline())
 
 
 # read all lines
-print data.readlines()
+print data_file.readlines()
 
 
 
-
+data = []
 # process the data
-for line in data_file.readlines():
-    print line
+for index, line in enumerate(data_file.readlines()):
+#    print line
 
-    print line.split(',')
+#    print line.split(',')
 
 
-    print line.rstrip('\n').split(',')
+#    print line.rstrip('\n').split(',')
+    data_line = line.rstrip('\n').split(',')
+    if index != 0:
+        for i, num in enumerate(data_line):
+            data_line[index] = int(num)
 
-    data = line.rstrip('\n').split(',')
+    data.append(data_line)
 
 print data
 
@@ -38,7 +42,7 @@ data_file.close()
 # file gets created if it doesn't exist
 output_file = open('data/processed.txt', 'w')
 
-output_file.write('Hello, world!')
+output_file.write('Hello, world!\n Bye, World!')
 
 output_file.close()
 

@@ -3,6 +3,6 @@ from utils import capitalize
 print capitalize("blabla")
 
 
-import numpy
+import numpy as np
 
-numpy.array([[1,2,3],[4,5,6]])
+np.array([[1,2,3],[4,5,6]])

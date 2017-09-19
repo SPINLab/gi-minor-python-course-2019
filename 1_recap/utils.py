@@ -3,5 +3,5 @@ def capitalize(string):
 
 
 def broken(input):
-    if input = 10:
+    if input == 10:
         print "Whoop!"
