@@ -126,7 +126,7 @@ print 'Everything works!'
 
 -   save the file: `File` -> `Save`
 -   run the code: `Run` -> `Run`
--   do you see `Everything works!` in the ouput screen? Great, you're all set!
+-   do you see `Everything works!` in the output screen? Great, you're all set!
 -   do you see something else? Too bad, something's wrong. Please copy/paste the output in the issue tracker (see below for instructions) and we'll try to assist you.
 
 ## Getting help
