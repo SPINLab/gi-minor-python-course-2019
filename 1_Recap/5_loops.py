@@ -7,28 +7,28 @@ for variable in list/dict/string/file:
 country = "The Netherlands"
 
 for c in country:
-    print c
+    print(c)
 
 
 cities = ["Rotterdam", "The Hague", "Amsterdam", "Utrecht"]
 
 for item in cities:
-    print item
+    print(item)
 
 
 for index in range(0, len(cities)):
-    print index, cities[index]
+    print(index, cities[index])
 
 
 for index, city in enumerate(cities):
-    print index, city
+    print(index, city)
 
 
 populations = { "Amsterdam": 80000, "Rotterdam": 500000, "The Hague": 100000}
 
 for key in populations:
-    print key
-    print populations[key]
+    print(key)
+    print(populations[key])
 
 
 

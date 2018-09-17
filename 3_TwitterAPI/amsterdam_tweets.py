@@ -1,6 +1,7 @@
-import tweepy
-import fiona
-from fiona.crs import from_epsg
+import pandas as pd
+import geopandas as gpd
+from twython import Twython
+from shapely.geometry import Point
 
 # Consumer keys and access tokens, used for OAuth. Fill in your personal keys.
 consumer_key = ''
@@ -8,29 +9,32 @@ consumer_secret = ''
 access_token = ''
 access_token_secret = ''
 
-# Create an OAuth authentication object
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
-
-# Create a tweepy API object, using the OAuth object
-api = tweepy.API(auth)
+# Create a Twython API object using the OAuth tokens:
+api = Twython(consumer_key, consumer_secret,
+                  access_token, access_token_secret)
 
 # Test the connection
-user = api.me()
-print 'Logged in as {}'.format(user.name)
+print(api.verify_credentials())
 
-# To find the Amsterdam Twitter ID we use the reverse_geocode method of the tweepy
+# To find the Amsterdam Twitter ID we use the reverse_geocode method of the twython
 # API object. We need a latitude and longitude of Amsterdam for this.
-places = api.reverse_geocode(lat=52.362951, lon=4.928977)
+# https://developer.twitter.com/en/docs/geo/places-near-location/api-reference/get-geo-reverse_geocode.html
+places = api.reverse_geocode(lat=???, long=???)
+
 # this returns a list of places associated with the latitude and longitude given.
 # Print the places and search for the amsterdam city place id. You will probably also
 # find a neighborhood, the province of Noord-Holland and the country of the Netherlands
 # in the list of places.
 # We can see that the city of Amsterdam is the first in the list, so we save the first
 # item in the list as a variable.
-amsterdam = places[0]
-# To get the id from this variable we use the folowing command:
-amsterdam_id = amsterdam.id
+amsterdam = #???
+
+
+
+# Save the ID found in the just created 'amsterdam' dictionary in a separate variable
+amsterdam_id = #???
+
+
 
 # Create the query (search text) HINT: To search based on a Twitter place ID search for
 # "place:`ID`", replacing `ID` with the ID found of the place.
@@ -39,51 +43,78 @@ amsterdam_id = amsterdam.id
 # Check if the query works by entering it in the search bar on the twitter website:
 # https://twitter.com/search-home
 # You should see tweets located in Amsterdam
-query = "place:{}".format(amsterdam_id)
+query = #???
 
-# Create a tweepy cursor. A cursor is an object that points to other objects, which you
-# can iterate through. In our case the cursor will point to the recent 1000 tweets
-# located in Amsterdam. The cursor is build using tweepy.Cursor(api.method, args),
-# where api.method is any method in the tweepy api object and args are the arguments
-# that need to be passed into said method.
-# HINT: Use the tweepy documentation online (http://docs.tweepy.org/en/v3.5.0/api.html) to find
-# out which api method you need to search for tweets and which argument you have to use to pass in the query.
-tweet_cursor = tweepy.Cursor(api.search, q=query).items(1000)
+
+# The maximum amount of tweets returned by a twitter API request is 100.
+# To get older tweets than the first 100 we need to use the max_id parameter,
+# as described in the twitter API documentation:
+# https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets
+# We can set the max_id to 1 less than the id of the last tweet we retrieved to retrieve
+# a completely new set of tweets.
+# So to get more and more new tweets we can create a loop, which at each iteration
+# requests 100 tweets with a max_id of 1 less than the last tweet of the previous iteration.
+###########################
+# To make this loop work we first need to get the id of the latest tweet first.
+# use the api.search method and the query we made before to request the latest tweet
+# and save the 'id' if this tweet to a variable
+latest_tweet = api.search(???)
+last_id = #???
+
+
+# Create a loop which, on each iteration, requests 100 new tweets. Let it loop for 10 iterations
+# so that in the end we have about 1000 tweets (probably closer to 800 tweets, since the api does not always return the full 100 tweets requested).
+# Save the retrieved tweets in a list.
+
+
+tweets = []
+for #???
+    # hint: use api.search with out query to get 100 new tweets, set the count and max_id parameter accordingly
+
+    # hint: instead of append, use the extend method to extend a list with another list (if we use append here we get a list of lists instead of 1 big list)
+
+    # hint: at the end of each iteration of the loop update the last_id variable
+
+
+
+
 
 # To save all tweets with coordinates we loop through all and add the tweets with
 # coordinates to a list.
+tweets_with_geo = []
 
-tweets = []
-
-for tweet in tweet_cursor:
-    # We can convert the tweet to a dictionary using _json
-    tweet_dict = tweet._json
-    # HINT: Print a tweet dictionary, where is the location saved?
+for #???
+    # HINT: Print (or look up in the variable explorer) a tweet dictionary, where is the location saved?
     # HINT: Use an if statement to check if the coordinates are present.
-    if tweet_dict["coordinates"] is not None:
+    if #???
         # append the tweet to the lift if it has coordinates. Look at the recap to see
         # how to append a value to a list
-        tweets.append(tweet_dict)
 
 
-# Save to a shapefile using the fiona module similar to the previous assignment.
-# Think about which information you want to save to the properties of each point.
-# HINT: look in the tweet list and pick a tweet. Look in the dictionary which properties are available.
-# Also think about the coordinate system we are using and adjust the crs accordingly if needed.
 
-crs = from_epsg(4326)
-schema = {'geometry': 'Point',
-          'properties': {'Text': 'str',
-                         'DateTime': 'str',
-                         'User': 'str'}}
 
-shp_filepath = 'tweet_locations_.shp'
+# We now need to create a GeoDataFrame with all the information we want to save.
+# This GeoDataframe we can save as a shapefile, which we can import into ArcMap.
+# Look at which information is in each tweet dictionary (via a print to console, or via the variable explorer).
+# Think of which info we would like to save (maybe, for example: the text, username, etc),
+# and what is not relevant to save with the shapefile (maybe, for example: retweeted status, favorite count, etc).
+#######
+# Create a new list, and loop through the tweets with a geotag. For each tweet create a new dictionary with
+# only the relevant information in it and append it to the newly created list.
+# Save the coordinates as a Point geometry object.
+# hint: remember the previous exercise how to convert coordinates to a Point geometry object.
+# hint: the same as in the previous exercise, the coordinates are in the wrong order for the creation of the Point geometry object, so reverse it.
+tweets_filtered = []
+for #???
+    new_tweet = {}
+    #???
 
-with fiona.open(shp_filepath, 'w', 'ESRI Shapefile',
-                schema=schema, crs=crs) as shp:
 
-    for tweet in tweets:
-        shp.write({'geometry': tweet["coordinates"],
-                   'properties': {'Text': tweet["text"],
-                                  'DateTime': tweet["created_at"],
-                                  'User': tweet["user"]["name"]}})
+
+# Create a DataFrame of the list of tweets:
+tweets_df = pd.DataFrame(tweets_filtered)
+# Create a GeoDataFrame of the DataFrame:
+tweets_gdf = gpd.GeoDataFrame(tweets_df, geometry='geom')
+# Save the GeoDataFrame to a shapefile:
+tweets_gdf.to_file('tweets.shp')
+# Import into ArcMap

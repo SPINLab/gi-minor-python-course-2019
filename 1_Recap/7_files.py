@@ -5,26 +5,26 @@ data_file = open('data/data.csv', 'r')
 
 
 # reading data
-print data_file.readline() 
-print type(data_file.readline())
+print(data_file.readline())
+print(type(data_file.readline()))
 
 
 
 
 # read all lines
-print data_file.readlines()
+print(data_file.readlines())
 
 
 
 data = []
 # process the data
 for index, line in enumerate(data_file.readlines()):
-#    print line
+#    print(line)
 
-#    print line.split(',')
+#    print(line.split(','))
 
 
-#    print line.rstrip('\n').split(',')
+#    print(line.rstrip('\n').split(','))
     data_line = line.rstrip('\n').split(',')
     if index != 0:
         for i, num in enumerate(data_line):
@@ -32,7 +32,7 @@ for index, line in enumerate(data_file.readlines()):
 
     data.append(data_line)
 
-print data
+print(data)
 
 # close the file when done
 data_file.close()

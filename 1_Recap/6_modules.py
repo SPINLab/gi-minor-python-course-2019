@@ -1,6 +1,6 @@
 from utils import capitalize
 
-print capitalize("blabla")
+print(capitalize("blabla"))
 
 
 import numpy as np
