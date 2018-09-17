@@ -89,7 +89,7 @@ You can install Anaconda and the needed modules as follows:
 
 -   Install the `geopandas` module: open a Anaconda prompt (`Start Menu` -> `Anaconda` -> `Anaconda Prompt`) in administrator mode (right click -> More -> Run as administrator) and enter the following command:
 
-    `conda install -c conda-forge geopandas`
+    `conda install geopandas`
 
     press `Enter` to execute it.
 
