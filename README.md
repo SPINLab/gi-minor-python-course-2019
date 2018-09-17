@@ -106,6 +106,17 @@ Test if everything works:
 -   start the Python editor `Spyder` (`Start Menu` -> `Anaconda` -> `Spyder`)
 -   copy/paste the following code into the newly opened editor
 
+Python 3:
+
+```python
+import geopandas
+import twython
+
+print('Everything works!')
+```
+
+Python 2:
+
 ```python
 import geopandas
 import twython
