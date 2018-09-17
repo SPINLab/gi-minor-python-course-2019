@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 # and create a datetime object with it that python can interpret
 # before we can plot the data
 # https://pymotw.com/2/datetime/#formatting-and-parsing
-# For simplicity we give you the correct time format:
+# For simplicity we give you the correct time format (but please try to understand it):
 time_format = '%Y-%m-%dT%H:%M:%S+00:00'
 
 # Change the loop so that the timestamp information is parsed using the format (https://pymotw.com/2/datetime/#formatting-and-parsing)
