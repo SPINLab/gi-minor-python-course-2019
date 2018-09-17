@@ -87,7 +87,7 @@ You can install Anaconda and the needed modules as follows:
 
 -   Download and install Anaconda -> [Download Anaconda](https://www.anaconda.com/download/) and double click it. You can accept the default choices.
 
--   Install the `fiona` module: open a Anaconda prompt (`Start Menu` -> `Anaconda` -> `Anaconda Prompt`) and enter the following command:
+-   Install the `geopandas` module: open a Anaconda prompt (`Start Menu` -> `Anaconda` -> `Anaconda Prompt`) and enter the following command:
 
     `conda install -c conda-forge geopandas`
 
