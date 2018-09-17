@@ -103,7 +103,7 @@ You can install Anaconda and the needed modules as follows:
 
 Test if everything works:
 
--   start the Python editor `Spyder` (`Start Menu` -> `Anaconda` -> `Spyder`)
+-   start the Python editor `Spyder` (`Start Menu` -> `Anaconda` -> `Spyder`) NOTE: If spyder does not start, reinstall anaconda and skip the step to install geopandas. In the exercises skip the steps which involve geopandas.
 -   copy/paste the following code into the newly opened editor
 
 Python 3:
