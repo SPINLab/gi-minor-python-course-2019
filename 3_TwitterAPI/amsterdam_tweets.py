@@ -69,7 +69,7 @@ last_id = #???
 
 tweets = []
 for #???
-    # hint: use api.search with out query to get 100 new tweets, set the count and max_id parameter accordingly
+    # hint: use api.search with our query to get 100 new tweets, set the count and max_id parameter accordingly
 
     # hint: instead of append, use the extend method to extend a list with another list (if we use append here we get a list of lists instead of 1 big list)
 
