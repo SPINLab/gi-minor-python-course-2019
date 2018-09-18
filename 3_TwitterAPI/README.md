@@ -8,11 +8,11 @@ As before our research area is going to be Amsterdam. To be able to use tweets a
 
 Because we are limited by time (only recent tweets), by location (only Amsterdam) and by the requirement of an available geotag, we have a limited number of usable tweets to work with. Consequently we can not further filter tweets by a subject (via a hashtag, for example). Therefore we have to keep this assignment more general. We will look how tweets are distributed over Amsterdam and if we can find some event by analysing the tweets (multiple people tweeting about the same thing).
 
-The Twitter API is not an open API like the one from the municipality from Amsterdam. It requires a Twitter account (that has joined Twitter Dev), and therefore when we use the API in python we need a way to identify ourselves. This is done using OAuth, a protocol for authorization, which is often used to grant applications access to information without using usernames and passwords. OAuth uses access tokens to verify the authenticity of the user making the requests.
+The Twitter API is not an open API like the one from the Luchtmeetnet. It requires a Twitter account (that has joined Twitter Developer), and therefore when we use the API in python we need a way to identify ourselves. This is done using OAuth, a protocol for authorization, which is often used to grant applications access to information without using usernames and passwords. OAuth uses access tokens to verify the authenticity of the user making the requests.
 
-We could use the `requests` module as we did with the Amsterdam API, but it would require quite a bit of set up and going through the API documentation. Luckily there are modules made specifically for the Twitter API. One of those modules is `twython`, which is the library we are going to use today.
+We could use the `requests` module as we did with the Luchtmeetnet API, but it would require quite a bit of set up. Luckily there are modules made specifically for the Twitter API. One of those modules is `twython`, which is the library we are going to use today.
 
-## Assignment
+## Assignment Summary
 
 Task 1. Setup a Twitter (Dev) account
 
