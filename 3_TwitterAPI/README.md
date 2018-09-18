@@ -26,19 +26,29 @@ Task 5. Do some spatial analysis in ArcMap
 
 ## Setting up a Twitter (Dev) account
 
-1. Create Twitter account (if you do not already have one).
+1. Create Twitter account (if you do not already have one) and log in.
 
-2. Join dev.twitter.com.
+2. Go to https://developer.twitter.com and click `apply` in the top right corner.
 
-3. Create an app (`My Apps` -> `Create New App`).
+3. Verify your phone number.
 
-4. Fill in the fields (Any name, any description, any website (whatever you want, can be gibberish)).
+4. When asked for application text, you can use the following text we prepared:
 
-5. Go to `Permissions` tab and change access to `Read, Write and Access Direct Messages` and update the settings.
+> As a student Geographic Information Science/ Systems I want to research the possibilities and opportunities to integrate twitter data in my spatial analysis framework. I am interested in spatial patterns and correlations.I aim to combine people's opinions with other spatial recourses like income, distance to nature, heritage and jobs.
 
-6. Go to `Keys and Access Tokens` tab & copy `consumer key` and `consumer secret` to a text file.
+5. Verify your email.
 
-7. Create access tokens & copy `access token` and `access token secret` to a text file.
+6. Create an app (`Create new app` -> `Create app`).
+
+7. Fill in the fields. App name, description, and website can be whatever you want (can be gibberish). The Call URLs etc can be ignored and left empty. In the app usage field you can enter the following text:
+
+> For educational and research purposes in the context of the Dutch national minor in Geographic Information Science.
+
+8. Go to `Permissions` tab, press edit, and change access to `Read, Write and Access Direct Messages` and update the settings.
+
+9. Go to `Keys & Tokens` tab and under `Consumer API keys` copy `API key` and `API secret` to a text file.
+
+10. Press `Create` to create access tokens & copy `access token` and `access token secret` to a text file.
 
 ## Gain API access in python
 
