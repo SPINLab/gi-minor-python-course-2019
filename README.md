@@ -95,7 +95,7 @@ You can install Anaconda and the needed modules as follows:
 
 -   Install the `twython` module: open a Anaconda prompt (`Start Menu` -> `Anaconda` -> `Anaconda Prompt`) and enter the following command:
 
-    `conda install -c conda-forge twython`
+    `conda install twython`
 
     press `Enter` to execute it.
 
