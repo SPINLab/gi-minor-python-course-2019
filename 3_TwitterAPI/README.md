@@ -34,7 +34,7 @@ Task 5. Do some spatial analysis in ArcMap
 
 4. When asked for application text, you can use the following text we prepared:
 
-> As a student Geographic Information Science/ Systems I want to research the possibilities and opportunities to integrate twitter data in my spatial analysis framework. I am interested in spatial patterns and correlations.I aim to combine people's opinions with other spatial recourses like income, distance to nature, heritage and jobs.
+> As a student Geographic Information Science/Systems I want to research the possibilities and opportunities to integrate twitter data in my spatial analysis framework. I am interested in spatial patterns and correlations. I aim to combine people's opinions with other spatial recourses like income, distance to nature, heritage and jobs.
 
 5. Verify your email.
 
