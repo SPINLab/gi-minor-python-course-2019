@@ -1,6 +1,6 @@
-# GI Minor Python course
+# Geo Information Minor Python course
 
-Dear GI Minor student,
+Dear Geo Information Minor student,
 
 Welcome to the Vrije Universiteit Python course. In this course we'll take a small dive into the Python programming language. We'll cover some **basic programming concepts** and briefly delve into **data acquisition** by using API's.
 
